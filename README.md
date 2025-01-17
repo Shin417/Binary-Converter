@@ -15,5 +15,14 @@ https://www.tinkercad.com/things/fOvaAfKz7kY-final-project-v21
 - Blue wires - 8x
 - Green Wires - 3x
 
-# How it Works
-null
+## Functions
+When the program starts, user can choose a mode either DtoB or BtoD using the keypad.
+### DtoB(Decimal to Binary)
+- Convert decimal number into binary number.
+- User can enter a decimal number from 0(0000000000000000) to 65535(1111111111111111) using the keypad. Press "*" to see the result.
+- When user enter a number greater than 65535, the LCD monitor says "Num is too big!".
+- After monitor showing the result, press any key on the keypad to return to the menu.
+### BtoD(Binary to Decimal)
+- Convert binary number into decimal number.
+- User can enter a binary number from 0000000000000000(0) to 1111111111111111(65535) using the keypad. All keys on the keypad except 0 and 1 are disabled. Press "*" to see the result.
+- After monitor showing the result, press any key on the keypad to return to the menu.
